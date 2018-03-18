@@ -3,7 +3,7 @@ import org.apache.log4j.Logger;
 
 /**
  * The Square class represents 
- * a four sided 2D shape
+ * a four sided, 2D shape
  * @author Cameron McKenzie
  * @version 1.0
  * @since 2018-03-01
