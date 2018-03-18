@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
  * The Square class represents 
  * a four sided 2D shape
  * @author Cameron McKenzie
- * @version 1.0
+ * @version 1.0.1
  * @since 2018-03-01
  */
 public class Square {
@@ -29,7 +29,7 @@ public class Square {
 	@return a positive int for the area
 	*/
 	public int getArea() {
-		log.info("getting area");
+		log.info("getting the area");
 		return height*height;
 	}
 }
