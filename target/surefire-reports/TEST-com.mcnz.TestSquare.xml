@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.mcnz.TestSquare" time="0.015" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.mcnz.TestSquare" time="0.026" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="Git Maven Project"/>
+    <property name="JOB_NAME" value="Simple Git and Maven Job"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
-    <property name="JENKINS_HOME" value="C:\Users\DevOps\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="54ce99fa3a607b52"/>
-    <property name="POM_ARTIFACTID" value="Square"/>
+    <property name="JENKINS_HOME" value="C:\Users\operator\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e1e79615cbe36126"/>
     <property name="os.name" value="Windows 7"/>
     <property name="sun.boot.class.path" value="C:\_jdk1.8\jre\lib\resources.jar;C:\_jdk1.8\jre\lib\rt.jar;C:\_jdk1.8\jre\lib\sunrsasign.jar;C:\_jdk1.8\jre\lib\jsse.jar;C:\_jdk1.8\jre\lib\jce.jar;C:\_jdk1.8\jre\lib\charsets.jar;C:\_jdk1.8\jre\lib\jfr.jar;C:\_jdk1.8\jre\classes"/>
     <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="Square"/>
     <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\Users\DevOps\AppData\Local\Temp"/>
+    <property name="TEMP" value="C:\Users\operator\AppData\Local\Temp"/>
     <property name="java.runtime.version" value="1.8.0_73-b02"/>
-    <property name="user.name" value="DevOps"/>
+    <property name="user.name" value="operator"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="Git Maven Project"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Git%20Maven%20Project/5/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="JOB_BASE_NAME" value="Simple Git and Maven Job"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Simple%20Git%20and%20Maven%20Job/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
     <property name="sun.boot.library.path" value="C:\_jdk1.8\jre\bin"/>
-    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="8fea580eb4bef7eef0f0ab42a5f1f97d73a0fd1e"/>
-    <property name="LOCALAPPDATA" value="C:\Users\DevOps\AppData\Local"/>
+    <property name="LOCALAPPDATA" value="C:\Users\operator\AppData\Local"/>
     <property name="java.version" value="1.8.0_73"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
     <property name="user.timezone" value="America/New_York"/>
-    <property name="USERNAME" value="DevOps"/>
+    <property name="USERNAME" value="operator"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\_jdk1.8\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="5"/>
+    <property name="BUILD_ID" value="1"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -54,14 +51,12 @@
     <property name="java.home" value="C:\_jdk1.8\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.1"/>
-    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Git%20Maven%20Project/5/display/redirect"/>
-    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
-    <property name="TMP" value="C:\Users\DevOps\AppData\Local\Temp"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Simple%20Git%20and%20Maven%20Job/1/display/redirect"/>
+    <property name="TMP" value="C:\Users\operator\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.73-b02"/>
     <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="8fea580eb4bef7eef0f0ab42a5f1f97d73a0fd1e"/>
-    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Git%20Maven%20Project/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Simple%20Git%20and%20Maven%20Job/display/redirect"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="GRADLE_HOME" value="C:\_gradle"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
@@ -69,28 +64,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
-    <property name="HOMEPATH" value="\Users\DevOps"/>
+    <property name="HOMEPATH" value="\Users\operator"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="user.script" value=""/>
     <property name="COMPUTERNAME" value="WP80LEONE"/>
-    <property name="POM_GROUPID" value="com.mcnz"/>
-    <property name="user.home" value="C:\Users\DevOps"/>
+    <property name="user.script" value=""/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Git Maven Project-5"/>
-    <property name="JENKINS_SERVER_COOKIE" value="54ce99fa3a607b52"/>
+    <property name="user.home" value="C:\Users\operator"/>
+    <property name="BUILD_TAG" value="jenkins-Simple Git and Maven Job-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e1e79615cbe36126"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\DevOps"/>
+    <property name="USERPROFILE" value="C:\Users\operator"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="java.library.path" value="C:\_jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\_maven/bin;C:\_jdk1.8/bin;C:\_jdk1.8/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\_jdk1.8\bin\;C:\_gradle\bin;C:\_git\cmd;C:\_maven\bin;C:\_git\bin;C:\_gradle\bin;C:\_nodejs\;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\DevOps\AppData\Roaming"/>
+    <property name="APPDATA" value="C:\Users\operator\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\_maven"/>
-    <property name="java.class.path" value="C:\Users\DevOps\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\_maven\boot\plexus-classworlds-2.5.2.jar;C:\_maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\_maven C:\Users\DevOps\.jenkins\war\WEB-INF\lib\remoting-3.14.jar C:\Users\DevOps\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\DevOps\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 54857"/>
+    <property name="java.class.path" value="C:\Users\operator\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\_maven\boot\plexus-classworlds-2.5.2.jar;C:\_maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\_maven C:\Users\operator\.jenkins\war\WEB-INF\lib\remoting-3.14.jar C:\Users\operator\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\operator\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 56133"/>
     <property name="Path" value="C:\_jdk1.8/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\_jdk1.8\bin\;C:\_gradle\bin;C:\_git\cmd;C:\_maven\bin;C:\_git\bin;C:\_gradle\bin;C:\_nodejs\"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -101,9 +94,9 @@
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="M2_HOME" value="C:\_maven"/>
-    <property name="java.io.tmpdir" value="C:\Users\DevOps\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\operator\AppData\Local\Temp\"/>
     <property name="OS" value="Windows_NT"/>
-    <property name="HUDSON_HOME" value="C:\Users\DevOps\.jenkins"/>
+    <property name="HUDSON_HOME" value="C:\Users\operator\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\_maven/bin"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -111,29 +104,29 @@
     <property name="SystemRoot" value="C:\Windows"/>
     <property name="windows_tracing_flags" value="3"/>
     <property name="java.ext.dirs" value="C:\_jdk1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\tempcode\squarepegs"/>
+    <property name="user.dir" value="C:\_devhub\squarepegs"/>
     <property name="LOGONSERVER" value="\\WP80LEONE"/>
     <property name="USERDOMAIN" value="WP80LEONE"/>
     <property name="line.separator" value="
 "/>
     <property name="MAVEN_HOME" value="C:\_maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
+    <property name="BUILD_NUMBER" value="1"/>
     <property name="PROCESSOR_REVISION" value="3a09"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="windir" value="C:\Windows"/>
-    <property name="GIT_COMMIT" value="8fea580eb4bef7eef0f0ab42a5f1f97d73a0fd1e"/>
+    <property name="GIT_COMMIT" value="98b562ab21a61e28f034a9bbaf0e1d5c34184770"/>
     <property name="=C:" value="C:\_jenkins"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Users\DevOps\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
-    <property name="WORKSPACE" value="C:\Users\DevOps\.jenkins\workspace\Git Maven Project"/>
-    <property name="maven3.interceptor.common" value="C:\Users\DevOps\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="maven3.interceptor" value="C:\Users\operator\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\operator\.jenkins\workspace\Simple Git and Maven Job"/>
+    <property name="maven3.interceptor.common" value="C:\Users\operator\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
-    <property name="GIT_URL" value="C:\tempcode\squarepegs"/>
+    <property name="GIT_URL" value="C:\_devhub\squarepegs"/>
   </properties>
-  <testcase classname="com.mcnz.TestSquare" name="testNonDefaultConstructor" time="0.015"/>
-  <testcase classname="com.mcnz.TestSquare" name="testGetArea" time="0"/>
+  <testcase classname="com.mcnz.TestSquare" name="testNonDefaultConstructor" time="0.025"/>
+  <testcase classname="com.mcnz.TestSquare" name="testGetArea" time="0.001"/>
   <testcase classname="com.mcnz.TestSquare" name="testDefaultConstructor" time="0"/>
 </testsuite>
