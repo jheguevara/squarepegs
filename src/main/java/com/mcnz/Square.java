@@ -1,16 +1,16 @@
 package com.mcnz; 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 
 /**
  * The Square class represents 
  * a four sided, 2D shape
  * @author Cameron McKenzie
- * @version 1.0.2
+ * @version 1.0
  * @since 2018-03-01
  */
 public class Square {
 	
-	static Logger log = Logger.getLogger(Square.class);
+	//static Logger log = Logger.getLogger(Square.class);
 	
 	int height;
 	public Square(){}
@@ -29,7 +29,7 @@ public class Square {
 	@return a positive int for the area
 	*/
 	public int getArea() {
-		log.info("getting the area");
+		//log.info("getting the area");
 		return height*height;
 	}
 }
