@@ -11,14 +11,14 @@ public class TestSquare {
 		Square square = new Square();
 		Assert.assertEquals(0, square.getHeight());
 		Assert.assertEquals(0, square.getWidth());
-		//Assert.fail("Forcing a test failure for no reason.");
+		Assert.fail("Forcing a test failure for no reason.");
 
 	}
 	
 	@Test
 	public void testNonDefaultConstructor() {
-		Square square = new Square(10);
-		//Square square = new Square(-10);
+		//Square square = new Square(10);
+		Square square = new Square(-10);
 		int height = square.getHeight(); 
 		Assert.assertEquals(square.getWidth(), height);
 		if (height<0){Assert.fail("No negatives.");} 
