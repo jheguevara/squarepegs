@@ -1,6 +1,7 @@
 package com.mcnz;
 
 import java.io.*;
+import java.io.*;
 import java.io.File;
 /**
  * Hello world!
