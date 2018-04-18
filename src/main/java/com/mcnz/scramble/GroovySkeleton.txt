@@ -14,8 +14,9 @@ node {
    stage('Build') {
 
       //Run the maven build, taking into account unix and windows 
+      // false needs to be deleted and replaced with a proper line of code
 
-      if ( ) {
+      if (false) {
          
       } else {
          
@@ -34,9 +35,9 @@ node {
 
 
 
-        
-	  //if they say yes to JavaSoc
-      if () {
+       //if they say yes to JavaDoc
+       // false needs to be deleted and replaced with a proper line of code
+      if (false) {
 
           node {
 			  //generate JavaDoc
