@@ -1,8 +1,13 @@
 package com.example.simple_app;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+//import junit.framework.Test;
+//import junit.framework.TestCase;
+//import junit.framework.TestSuite;
+
+import org.junit.TestCase;
+import org.junit.TestSuite;
+import org.junit.Test;
+
 
 /**
  * Unit test for simple App.
