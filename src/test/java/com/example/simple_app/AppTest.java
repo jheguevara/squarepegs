@@ -6,6 +6,8 @@ package com.example.simple_app;
 
 import org.junit.Assert;
 import org.junit.Test;
+import java.util.*;
+import java.awt.*;
 
 
 /**
@@ -26,7 +28,7 @@ public class AppTest   {
      * @return the suite of tests being tested
      */
     public static Test suite(){
-        return new org.junit.TestSuite( AppTest.class );
+        return new junit.framework ( AppTest.class );
     }
 
     /**
