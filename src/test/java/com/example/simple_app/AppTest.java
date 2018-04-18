@@ -16,11 +16,4 @@ import com.example.simple_app.*;
  */
 public class AppTest   {
 
-    /**
-     * Rigourous Test :-)
-     */
-    @Test
-    public void testApp() {
-        Assert.assertTrue( new App().APP_NAME.equals(new App().getAppName()) );
-    }
 }
