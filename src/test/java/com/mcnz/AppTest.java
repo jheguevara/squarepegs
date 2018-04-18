@@ -20,6 +20,6 @@ public class AppTest   {
      */
     @Test
     public void testApp() {
-        Assert.assertTrue( new App().APP_NAME.equals(new App().getAppName()) );
+        Assert.assertTrue( new com.mcnz.App().APP_NAME.equals(new com.mcnz.App().getAppName()) );
     }
 }
