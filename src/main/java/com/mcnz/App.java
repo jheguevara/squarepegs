@@ -1,4 +1,4 @@
-package com.example.simple_app;
+package com.mcnz;
 
 import java.io.*;
 import java.io.File;
