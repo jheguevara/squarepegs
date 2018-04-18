@@ -39,7 +39,7 @@ public class TestSquare {
 	}
 	
 	@Test
-	public void testGetWidth()() {
+	public void testGetWidth() {
 		Square square = new Square(10);
 		Assert.assertEquals(square.getHeight(), square.getWidth());
 	}
