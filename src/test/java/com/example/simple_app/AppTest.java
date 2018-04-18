@@ -34,6 +34,6 @@ public class AppTest   {
      */
     @Test
     public void testApp() {
-        Assert.true( new App().APP_NAME.equals(new App().getAppName()) );
+        Assert.AssertTrue( new App().APP_NAME.equals(new App().getAppName()) );
     }
 }
