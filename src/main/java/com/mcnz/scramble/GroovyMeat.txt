@@ -1,0 +1,30 @@
+
+//************** One line of code **********************//
+      def response = input message: 'Generate JavaDoc?',
+
+        parameters: [choice(choices: 'Yes\nNo',
+
+        description: 'Want JavaDoc?', name: 'Generate')]
+//************************************//
+
+response=="Yes"
+
+bat('mvn -Dmaven.test.failure.ignore clean package')
+
+bat 'javadoc -sourcepath c:\\_code\\src\\main\\java -d C:\\javadoc com.mcnz'
+
+mvnHome = tool 'MAVEN'
+
+junit '**/target/surefire-reports/TEST-*.xml'
+
+isUnix()
+
+archive 'target/*.jar'
+
+def mvnHome
+
+sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean package"
+
+git 'https://github.com/jheguevara/squarepegs.git'   
+
+
