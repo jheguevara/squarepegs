@@ -1,0 +1,48 @@
+node {
+
+   //Declare a global variable for mvnHome
+   
+
+   stage('Preparation') { 
+
+	  // Tell git about the repository
+	  // Assign the mvnHome variable to the name of Maven in Jenkins
+          
+      
+   }
+
+   stage('Build') {
+
+      //Run the maven build, taking into account unix and windows 
+
+      if ( ) {
+         
+      } else {
+         
+      }
+   }
+
+   stage('Results') {
+   
+	  // Generate JUnit reports and archive
+
+   }
+
+   stage('Document'){
+   
+      //Figure out if the user wants to generate JavaDoc
+
+
+
+        
+	  //if they say yes to JavaSoc
+      if () {
+
+          node {
+			  //generate JavaDoc
+ 
+          }
+
+      }
+   }
+}
