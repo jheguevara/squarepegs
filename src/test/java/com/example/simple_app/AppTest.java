@@ -14,28 +14,12 @@ import java.awt.*;
  * Unit test for simple App.
  */
 public class AppTest   {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    
-    public AppTest( String testName ){
-        super( testName );
-    }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite(){
-        return new junit.framework ( AppTest.class );
-    }
 
     /**
      * Rigourous Test :-)
      */
     @Test
     public void testApp() {
-        Assert.AssertTrue( new App().APP_NAME.equals(new App().getAppName()) );
+        Assert.assertTrue( new App().APP_NAME.equals(new App().getAppName()) );
     }
 }
