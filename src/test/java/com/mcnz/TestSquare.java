@@ -30,4 +30,17 @@ public class TestSquare {
 		int area = square.getArea();
 		Assert.assertEquals(100, area);
 	}
+	
+	@Test
+	public void testGetAreaAgain() {
+		Square square = new Square(10);
+		int area = square.getArea();
+		Assert.assertEquals(100, square.getArea());
+	}
+	
+	@Test
+	public void testGetWidth()() {
+		Square square = new Square(10);
+		Assert.assertEquals(square.getHeight(), square.getWidth());
+	}
 }
