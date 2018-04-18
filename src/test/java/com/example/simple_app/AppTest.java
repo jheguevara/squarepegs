@@ -4,20 +4,20 @@ package com.example.simple_app;
 //import junit.framework.TestCase;
 //import junit.framework.TestSuite;
 
-import org.junit.TestCase;
-import org.junit.TestSuite;
+import org.junit.Assert;
 import org.junit.Test;
 
 
 /**
  * Unit test for simple App.
  */
-public class AppTest  extends TestCase {
+public class AppTest   {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
+    
     public AppTest( String testName ){
         super( testName );
     }
@@ -26,13 +26,14 @@ public class AppTest  extends TestCase {
      * @return the suite of tests being tested
      */
     public static Test suite(){
-        return new TestSuite( AppTest.class );
+        return new org.junit.TestSuite( AppTest.class );
     }
 
     /**
      * Rigourous Test :-)
      */
+    @Test
     public void testApp() {
-        assertTrue( new App().APP_NAME.equals(new App().getAppName()) );
+        Assert.true( new App().APP_NAME.equals(new App().getAppName()) );
     }
 }
